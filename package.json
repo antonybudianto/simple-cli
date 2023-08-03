@@ -1,0 +1,15 @@
+{
+  "name": "simple-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "simplecli": "./cli.js"
+  },
+  "scripts": {
+    "build": "pkg . -t node18-macos-arm64"
+  },
+  "devDependencies": {
+    "pkg": "5.8.1"
+  }
+}
