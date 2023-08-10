@@ -7,7 +7,11 @@
     "simplecli": "./cli.js"
   },
   "scripts": {
+    "dev": "node cli.js -x=1 -y=2",
     "build": "pkg . -t node18-macos-arm64"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "pkg": "5.8.1"
